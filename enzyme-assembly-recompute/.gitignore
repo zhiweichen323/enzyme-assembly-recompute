@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local runs and scratch outputs
+results/
+results_reference/
+validation_*/
+*.log
+*.zip
+
+# Original private source documents are optional local inputs
+reference/*.docx
+reference/*.pdf
+
+# Editors and local configuration
+.vscode/
+.idea/
+.env
+.env.*
+.DS_Store
+Thumbs.db
