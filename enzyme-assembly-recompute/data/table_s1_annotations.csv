@@ -1,0 +1,106 @@
+﻿gene,pathway,label,state,evidence
+PPAT,purine de novo,positive,LLPS,purinosome core enzyme
+PAICS,purine de novo,positive,LLPS,purinosome core enzyme
+GART,purine de novo,positive,LLPS,purinosome enzyme
+PFAS,purine de novo,positive,LLPS,purinosome enzyme
+ADSL,purine de novo,positive,LLPS,purinosome enzyme
+ATIC,purine de novo,positive,LLPS,purinosome enzyme; AKT phosphorylation target
+GMPS,purine de novo,positive,LLPS,purinosome enzyme; also nuclear localization reported
+PRPS1,purine de novo,positive,filament,PRPP synthetase; filament stabilizes allosteric site; purinosome component
+IMPDH1,purine de novo,positive,filament,IMP dehydrogenase; cytoophidium/rods-and-rings
+IMPDH2,purine de novo,positive,filament,IMP dehydrogenase; filament resists GTP feedback inhibition
+CAD,pyrimidine de novo,positive,LLPS,pyrimidine body core
+DHODH,pyrimidine de novo,positive,LLPS,pyrimidine body component (mitochondrial-coupled)
+UMPS,pyrimidine de novo,positive,LLPS,pyrimidine body component
+CTPS1,CTP synthesis,positive,filament,cytoophidium filament; active conformation stabilized
+CTPS2,CTP synthesis,positive,filament,cytoophidium filament; cooperative active/inactive transition
+PFKL,glycolysis G-body,positive,LLPS,G-body nucleating enzyme
+PFKP,glycolysis G-body,positive,LLPS,G-body
+ALDOA,glycolysis G-body,positive,LLPS,G-body; basic enzyme subpopulation membrane-anchored
+GAPDH,glycolysis G-body,positive,LLPS,G-body; basic enzyme subpopulation
+HK2,glycolysis G-body,positive,LLPS,TPM4-condensate-recruited glycolytic rate-limiting enzyme; self-condenses in vitro (hyperosmotic/hypoxic)
+ENO1,glycolysis G-body,positive,LLPS,G-body; basic enzyme subpopulation
+PKM2,glycolysis,positive,amyloid,reversible pH-sensing amyloid (H391 core)
+MDH2,TCA metabolon,positive,LLPS,malate dehydrogenase; pH-sensitive metabolon
+CS,TCA metabolon,positive,LLPS,citrate synthase; metabolon
+ACO2,TCA metabolon,positive,LLPS,aconitase 2; metabolon
+IDH2,TCA anaplerotic,positive,oligomer,reductive carboxylation (dimer)
+SPATA18,cardiolipin condensate,positive,LLPS,Mieap IDR protein phase separation
+PGS1,cardiolipin condensate,positive,LLPS,cardiolipin module
+PTPMT1,cardiolipin condensate,positive,LLPS,cardiolipin module
+TAZ,cardiolipin condensate,positive,LLPS,cardiolipin module
+PLA2G6,cardiolipin condensate,positive,LLPS,cardiolipin module
+FASN,lipid synthesis,positive,oligomer,giant enzyme with internal channel
+ACACA,lipid synthesis,positive,filament,acetyl-CoA carboxylase 1; citrate-induced filament
+PYCR1,proline synthesis,positive,oligomer,pentamer-of-dimers decamer
+PYCR2,proline synthesis,positive,oligomer,pentamer-of-dimers decamer (mitochondrial)
+PHGDH,serine synthesis,positive,LLPS,serinosome component; rate-limiting
+PSAT1,serine synthesis,positive,LLPS,serinosome component
+PSPH,serine synthesis,positive,LLPS,serinosome component
+GLS,glutaminolysis,positive,filament,glutaminase GAC; Pi-induced tetramer filament
+GCLC,glutathione synthesis,negative,diffuse,two-enzyme pathway; no multivalent interface
+GCLM,glutathione synthesis,negative,diffuse,modifier subunit
+GSS,glutathione synthesis,negative,diffuse,glutathione synthetase
+SHMT1,one-carbon,negative,diffuse,cytosolic shuttle
+MTHFD1,one-carbon,negative,diffuse,methylenetetrahydrofolate dehydrogenase
+MTHFD2,one-carbon,negative,mitochondrial,mitochondrial isoform (membrane-bound organelle)
+GFPT1,hexosamine,negative,diffuse,rate-limiting; no condensation
+GFPT2,hexosamine,negative,diffuse,isoform
+OGT,hexosamine,negative,diffuse,O-GlcNAc transferase
+GNE,hexosamine,negative,diffuse,epimerase
+UAP1,hexosamine,negative,diffuse,pyrophosphorylase
+HPRT1,purine salvage,negative,diffuse,single enzyme; no condensation
+APRT,purine salvage,negative,diffuse,single enzyme
+ADK,purine salvage,negative,diffuse,single enzyme
+UPP1,pyrimidine salvage,negative,diffuse,single enzyme
+UCK2,pyrimidine salvage,negative,diffuse,single enzyme
+DCK,pyrimidine salvage,negative,diffuse,deoxycytidine kinase; single enzyme
+TK1,pyrimidine salvage,negative,diffuse,thymidine kinase; single enzyme
+ODC1,polyamine synthesis,unknown,putative,ornithine decarboxylase; AZIN interaction; condensation weak
+SRM,polyamine synthesis,unknown,putative,spermidine synthase
+SMS,polyamine synthesis,unknown,putative,spermine synthase
+AMD1,polyamine synthesis,unknown,putative,AdoMet decarboxylase
+AZIN1,polyamine synthesis,unknown,regulator,antizyme inhibitor
+CPS1,urea cycle,negative,mitochondrial,carbamoyl phosphate synthetase 1
+OTC,urea cycle,negative,mitochondrial,ornithine transcarbamylase
+ASS1,urea cycle,negative,diffuse,argininosuccinate synthetase; promoter-methylation silenced
+ASL,urea cycle,negative,diffuse,argininosuccinate lyase
+ARG1,urea cycle,negative,diffuse,arginase
+BCAT1,BCAA degradation,negative,diffuse,cytosolic branched-chain aminotransferase
+BCAT2,BCAA degradation,negative,mitochondrial,mitochondrial branched-chain aminotransferase
+BCKDHA,BCAA degradation,negative,mitochondrial,BCKDH E1a
+BCKDHB,BCAA degradation,negative,mitochondrial,BCKDH E1b
+DBT,BCAA degradation,negative,mitochondrial,dihydrolipoamide branched-chain transacylase
+DLD,BCAA degradation,negative,mitochondrial,dihydrolipoamide dehydrogenase
+BCKDK,BCAA degradation,negative,diffuse,BCKDH kinase (regulator)
+PPM1K,BCAA degradation,negative,diffuse,protein phosphatase (regulator)
+CPT1A,FAO,negative,membrane,carnitine palmitoyltransferase 1A (membrane-anchored)
+CPT2,FAO,negative,mitochondrial,carnitine palmitoyltransferase 2
+ACADM,FAO,negative,mitochondrial,medium-chain acyl-CoA dehydrogenase
+HADHA,FAO,negative,mitochondrial,trifunctional protein a
+HADHB,FAO,negative,mitochondrial,trifunctional protein b
+HADH,FAO,negative,mitochondrial,hydroxyacyl-CoA dehydrogenase
+ECHS1,FAO,negative,mitochondrial,enoyl-CoA hydratase
+HK1,control diffuse,negative,diffuse,hexokinase 1
+TKT,control diffuse,negative,diffuse,transketolase
+RPIA,control diffuse,negative,diffuse,ribose-5-phosphate isomerase
+G6PD,control diffuse,negative,diffuse,glucose-6-phosphate dehydrogenase
+PGLS,control diffuse,negative,diffuse,6-phosphogluconolactonase
+TALDO1,control diffuse,negative,diffuse,transaldolase
+ME1,control diffuse,negative,diffuse,malic enzyme 1
+PC,control diffuse,negative,diffuse,pyruvate carboxylase
+IDH1,control diffuse,negative,diffuse,cytosolic isocitrate dehydrogenase
+PGK1,glycolysis control,negative,diffuse,phosphoglycerate kinase 1
+PGAM1,glycolysis control,negative,diffuse,phosphoglycerate mutase 1
+TPI1,glycolysis control,negative,diffuse,triose phosphate isomerase
+PKM,glycolysis control,negative,diffuse,pyruvate kinase M1 isoform (non-amyloid isoform)
+LDHA,glycolysis control,negative,diffuse,lactate dehydrogenase A
+IDH3A,TCA control,negative,mitochondrial,isocitrate dehydrogenase 3 alpha
+OGDH,TCA control,negative,mitochondrial,alpha-ketoglutarate dehydrogenase
+SDHA,TCA control,negative,mitochondrial,succinate dehydrogenase A
+FH,TCA control,negative,mitochondrial,fumarate hydratase
+SUCLA2,TCA control,negative,mitochondrial,succinyl-CoA synthetase
+PGD,PPP control,negative,diffuse,6-phosphogluconate dehydrogenase
+RPE,PPP control,negative,diffuse,ribulose-5-phosphate 3-epimerase
+GOT1,amino acid control,negative,diffuse,glutamic-oxaloacetic transaminase 1
+GPT,amino acid control,negative,diffuse,alanine transaminase

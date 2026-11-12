@@ -1,0 +1,68 @@
+{
+  "source_docx_sha256": "82fe72ee6b90f0586b740ea6a77d25cbd1b4576e0ecadf459ae8b849f761e537",
+  "table_rows": {
+    "S1": 105,
+    "S2": 26,
+    "S3": 105
+  },
+  "primary_samples": 100,
+  "primary_labels": {
+    "positive": 39,
+    "negative": 61
+  },
+  "provisional_genes": [
+    "ODC1",
+    "SRM",
+    "SMS",
+    "AMD1",
+    "AZIN1"
+  ],
+  "feature_columns": [
+    "length",
+    "net_charge_count",
+    "charge_density",
+    "positive_frac",
+    "negative_frac",
+    "aromatic_frac",
+    "low_complexity_frac",
+    "charge_patterning_kappa",
+    "disorder_proxy",
+    "pI_approx",
+    "amyloid_proxy",
+    "hydrophobic_patch_len",
+    "hydrophobic_patch_density",
+    "aggregation_prone_frac"
+  ],
+  "raw_feature_display_precision": "all numeric strings in Table S3 have three decimal places; original full precision is unavailable",
+  "metadata_s1_s3_match": true,
+  "table_s2_vs_s1_count_mismatches": [
+    {
+      "pathway": "glycolysis G-body",
+      "table_s2_n": 5,
+      "table_s1_n": 6
+    }
+  ],
+  "table_s2_n_sum": 104,
+  "identical_feature_vectors": [
+    [
+      "PKM2",
+      "PKM"
+    ],
+    [
+      "HADHA",
+      "HADH"
+    ]
+  ],
+  "flagged_for_author_review": [
+    {
+      "gene": "CAD",
+      "table_s3_length": "338.000",
+      "note": "Confirm accession/isoform and completeness before any sequence-derived correction."
+    },
+    {
+      "gene": "TAZ",
+      "note": "Ambiguous gene symbol: retain original label here; require stable accession before sequence retrieval."
+    }
+  ],
+  "policy": "Preserve supplied annotations and rounded feature values. No sequence correction, sample dropping, relabeling, or parameter tuning to reach paper AUC."
+}

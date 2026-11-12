@@ -1,0 +1,28 @@
+{
+  "primary_loo": {
+    "auc": 0.58,
+    "permutation_p": 0.073,
+    "bootstrap_ci95": [
+      0.49,
+      0.78
+    ]
+  },
+  "leave_pathway_out": {
+    "auc": 0.45,
+    "permutation_p": 0.51
+  },
+  "pathway_aggregate": {
+    "auc": 0.6
+  },
+  "rnp_vs_negative_enzymes": {
+    "auc": 0.94,
+    "permutation_p": 0.0033
+  },
+  "rnp_vs_positive_enzymes": {
+    "auc": 0.84,
+    "permutation_p": 0.0033
+  },
+  "permutations": 300,
+  "bootstrap_replicates": 200,
+  "source": "Research manuscript and supplementary information. Reference values only; not generated outputs."
+}

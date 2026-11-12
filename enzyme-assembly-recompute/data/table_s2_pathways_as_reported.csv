@@ -1,0 +1,27 @@
+﻿pathway,n,positive,negative,provisional,uniform
+BCAA degradation,8,0,8,0,Yes
+CTP synthesis,2,2,0,0,Yes
+FAO,7,0,7,0,Yes
+PPP control,2,0,2,0,Yes
+TCA anaplerotic,1,1,0,0,Yes
+TCA control,5,0,5,0,Yes
+TCA metabolon,3,3,0,0,Yes
+amino acid control,2,0,2,0,Yes
+cardiolipin condensate,5,5,0,0,Yes
+control diffuse,9,0,9,0,Yes
+glutaminolysis,1,1,0,0,Yes
+glutathione synthesis,3,0,3,0,Yes
+glycolysis,1,1,0,0,Yes
+glycolysis G-body,5,5,0,0,Yes
+glycolysis control,5,0,5,0,Yes
+hexosamine,5,0,5,0,Yes
+lipid synthesis,2,2,0,0,Yes
+one-carbon,3,0,3,0,Yes
+polyamine synthesis,5,0,0,5,No
+proline synthesis,2,2,0,0,Yes
+purine de novo,10,10,0,0,Yes
+purine salvage,3,0,3,0,Yes
+pyrimidine de novo,3,3,0,0,Yes
+pyrimidine salvage,4,0,4,0,Yes
+serine synthesis,3,3,0,0,Yes
+urea cycle,5,0,5,0,Yes

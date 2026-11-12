@@ -1,0 +1,5 @@
+﻿metric,paper_reported,this_run,convention_note
+primary_loo_auc,0.58,0.537620849096259,input and implementation differ
+primary_permutation_p,0.073,0.11627906976744186,this run: plus-one inclusive upper tail; manuscript correction rule unconfirmed
+leave_pathway_auc,0.45,0.24169819251786465,input and implementation differ
+pathway_aggregate_auc,0.6,0.5769230769230769,input and implementation differ

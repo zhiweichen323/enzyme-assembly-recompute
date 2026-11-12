@@ -1,0 +1,17 @@
+{
+  "title": "Metabolic protein assembly feature-table extraction",
+  "date": "2026-11-11",
+  "source_original_name": "Metabolic_Enzyme_Condensation_Pathway_Level_Supplementary.docx",
+  "source_sha256": "82fe72ee6b90f0586b740ea6a77d25cbd1b4576e0ecadf459ae8b849f761e537",
+  "extraction": "Direct cell text from the three DOCX tables; no OCR; table order preserved. Analysis input contains positive/negative rows of S3 with a derived y column. S1 metadata checked against S3.",
+  "input_sha256": {
+    "analysis_input_100.csv": "08d3fea1b0230201498ce470eeafaa04c35878d557c2ee2bb59f23e22158fba3",
+    "excluded_provisional_5.csv": "9c96397f23975d4250dbf261161c82a01840b8e27b206c2b8dd8fd09ab523af0",
+    "feature_dictionary.csv": "856e11a1393e8db3b63887e8b163c5ebc748e1415622619a43a7f214e704c75e",
+    "table_s1_annotations.csv": "38f1e7336e23140fde8dc1701848abb58f40b90e395682f510e40a2a21f2033e",
+    "table_s2_pathways_as_reported.csv": "ce45baabe97128f3cd6c2c042704519ccca51f1d0ff96833b3431b0714aa3b62",
+    "table_s3_features_as_reported.csv": "124ce987d29a9c2fbd3e92eb9b2c7f6b3212bd8b288d56a28693a9e0409457a0"
+  },
+  "source_availability": "The source manuscript supplement was supplied privately. It is not bundled with this repository; main analysis uses the provided CSV tables.",
+  "redistribution_license": "Not specified in the supplied materials."
+}

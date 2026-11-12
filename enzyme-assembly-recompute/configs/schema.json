@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Enzyme Assembly Recompute configuration",
+  "type": "object",
+  "required": [
+    "input_csv",
+    "output_dir",
+    "fit",
+    "permutations",
+    "bootstrap_replicates",
+    "seed",
+    "include_leave_pathway_out",
+    "include_pathway_aggregate"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "input_csv": {
+      "type": "string",
+      "minLength": 1
+    },
+    "output_dir": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expected_counts": {
+      "type": "object",
+      "properties": {
+        "n": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "positive": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "negative": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "fit": {
+      "type": "object",
+      "required": [
+        "lambda",
+        "max_iter",
+        "ftol",
+        "gtol"
+      ],
+      "properties": {
+        "lambda": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "max_iter": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "ftol": {
+          "type": "number",
+          "minimum": 0
+        },
+        "gtol": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "permutations": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "bootstrap_replicates": {
+      "type": "integer",
+      "minimum": 2
+    },
+    "seed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "workers": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "include_leave_pathway_out": {
+      "type": "boolean"
+    },
+    "include_pathway_aggregate": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

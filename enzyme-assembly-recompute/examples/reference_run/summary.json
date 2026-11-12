@@ -1,0 +1,79 @@
+{
+  "task": "enzyme assembly binary classification",
+  "input_csv": "data/analysis_input_100.csv",
+  "input_sha256": "08d3fea1b0230201498ce470eeafaa04c35878d557c2ee2bb59f23e22158fba3",
+  "n": 100,
+  "n_features": 14,
+  "n_positive": 39,
+  "n_negative": 61,
+  "settings": {
+    "lambda": 1.0,
+    "max_iter": 2000,
+    "ftol": 1e-08,
+    "gtol": 1e-05
+  },
+  "seed": 20261111,
+  "source": "Rounded three-decimal Table S3 values; original labels preserved.",
+  "loo": {
+    "auc": 0.537620849096259,
+    "mean_score_positive": 0.3947570481835666,
+    "mean_score_negative": 0.3856097652034558,
+    "pairwise_auc_check": {
+      "pairs": 2379,
+      "wins": 1279,
+      "ties": 0,
+      "losses": 1100,
+      "auc_from_pairs": 0.537620849096259
+    },
+    "permutation": {
+      "n": 300,
+      "null_mean": 0.4210424548129466,
+      "null_std_ddof1": 0.10076145425641564,
+      "count_gt": 34,
+      "count_ge": 34,
+      "p_raw_gt": 0.11333333333333333,
+      "p_raw_ge": 0.11333333333333333,
+      "p_plus1_ge": 0.11627906976744186,
+      "tail": "upper",
+      "unit": "individual protein labels",
+      "note": "No pathway-constrained permutation. This does not correct label/reporting bias."
+    },
+    "conditional_bootstrap": {
+      "replicates": 200,
+      "seed": 20261112,
+      "method": "stratified paired bootstrap of fixed OOF label-score records, no refit",
+      "percentile_ci95": [
+        0.42400168137873057,
+        0.6369482976040353
+      ],
+      "not_equivalent_to_unspecified_paper_bootstrap": true
+    }
+  },
+  "leave_pathway_out": {
+    "auc": 0.24169819251786465,
+    "n_folds": 25,
+    "permutation": {
+      "n": 300,
+      "null_mean": 0.4276649852879362,
+      "null_std_ddof1": 0.09257499887327779,
+      "count_gt": 294,
+      "count_ge": 294,
+      "p_raw_gt": 0.98,
+      "p_raw_ge": 0.98,
+      "p_plus1_ge": 0.9800664451827242,
+      "tail": "upper",
+      "unit": "individual protein labels",
+      "note": "No pathway-constrained permutation. This does not correct label/reporting bias."
+    }
+  },
+  "pathway_aggregate": {
+    "auc": 0.5769230769230769,
+    "n_pathways": 25,
+    "n_features": 29,
+    "within_pathway_std_ddof": 0,
+    "validation": "pooled leave-one-pathway-record-out scores"
+  },
+  "elapsed_seconds": 21.094508948999987,
+  "reference_run_description": "Frozen run of this independent reimplementation; computational core and input CSV bytes match the locally verified baseline.",
+  "baseline_software_version": "0.1.0"
+}

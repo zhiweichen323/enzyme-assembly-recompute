@@ -1,0 +1,6 @@
+﻿gene,pathway,label,state,length,net_charge_count,charge_density,positive_frac,negative_frac,aromatic_frac,low_complexity_frac,charge_patterning_kappa,disorder_proxy,pI_approx,amyloid_proxy,hydrophobic_patch_len,hydrophobic_patch_density,aggregation_prone_frac
+ODC1,polyamine synthesis,unknown,putative,461.000,-7.000,-0.015,0.119,0.134,0.100,0.043,0.595,0.362,4.815,0.037,7.000,0.531,0.419
+SRM,polyamine synthesis,unknown,putative,302.000,-2.000,-0.007,0.109,0.116,0.093,0.199,0.463,0.388,5.074,0.027,9.000,0.530,0.397
+SMS,polyamine synthesis,unknown,putative,366.000,-11.000,-0.030,0.126,0.156,0.090,0.055,0.529,0.371,4.566,0.022,7.000,0.527,0.413
+AMD1,polyamine synthesis,unknown,putative,334.000,0.000,0.000,0.120,0.120,0.126,0.120,0.481,0.419,5.558,0.018,6.000,0.485,0.392
+AZIN1,polyamine synthesis,unknown,regulator,448.000,-18.000,-0.040,0.096,0.136,0.105,0.089,0.602,0.366,4.350,0.041,7.000,0.536,0.422

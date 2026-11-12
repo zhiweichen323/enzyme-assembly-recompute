@@ -1,0 +1,15 @@
+﻿original_header,feature_name,definition_zh,kind
+len,length,残基数量N,count
+netQ,net_charge_count,K+R-D-E的简化计数,count
+Q_dens,charge_density,net_charge_count/N,fraction
+f(+),positive_frac,(K+R)/N,fraction
+f(−),negative_frac,(D+E)/N,fraction
+arom,aromatic_frac,(F+Y+W)/N,fraction
+LC,low_complexity_frac,SEG-like低复杂度比例，精确定义需原特征模块,proxy
+kappa,charge_patterning_kappa,Das-Pappu-like电荷排布代理,proxy
+disorder,disorder_proxy,加权无序性代理,proxy
+pI,pI_approx,近似等电点,pH
+amyloid,amyloid_proxy,按预设残基集合统计6残基窗口,proxy
+hydro_len,hydrophobic_patch_len,最长疏水片段长度,count
+hydro_dens,hydrophobic_patch_density,疏水片段密度，精确定义需原模块,proxy
+aggr,aggregation_prone_frac,预设易聚集残基比例,proxy

@@ -1,0 +1,28 @@
+{
+  "$schema": "./schema.json",
+  "input_csv": "data/analysis_input_100.csv",
+  "output_dir": "results/main",
+  "expected_counts": {
+    "n": 100,
+    "positive": 39,
+    "negative": 61
+  },
+  "fit": {
+    "lambda": 1.0,
+    "max_iter": 2000,
+    "ftol": 1e-08,
+    "gtol": 1e-05
+  },
+  "permutations": 300,
+  "bootstrap_replicates": 200,
+  "seed": 20261111,
+  "workers": 1,
+  "include_leave_pathway_out": true,
+  "include_pathway_aggregate": true,
+  "notes": {
+    "lambda": "Coefficient inherited from the distributed training script; the primary-analysis convention is unconfirmed.",
+    "bootstrap": "Stratified paired fixed-OOF-score percentile bootstrap; original paper implementation unspecified.",
+    "permutation": "Shuffle individual protein labels; preserve 39/61; repeat full fold-local scaling and fit.",
+    "pathway_aggregate": "14 means + 14 within-group population SDs + count; 25 pathway samples."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "input_sha256": "08d3fea1b0230201498ce470eeafaa04c35878d557c2ee2bb59f23e22158fba3",
+  "code_sha256": {
+    "mlo_core.py": "70e8cf27aea2b1d9e5026ffb49ee8855ed129c9491294e69ba028ff4169b1385",
+    "run_analysis.py": "e1df31e1baa37192345df58c65cdc6d5ec1787f6624be31a39c130f978d85334"
+  },
+  "python_version": "3.12.14",
+  "execution_surface": "Local Linux runtime; GitHub-hosted workflow has not yet been executed.",
+  "baseline_software_version": "0.1.0"
+}

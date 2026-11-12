@@ -1,0 +1,101 @@
+﻿gene,pathway,label,state,y_true,probability,predicted_y_at_0_5
+PPAT,purine de novo,positive,LLPS,1,0.3883568120130757,0
+PAICS,purine de novo,positive,LLPS,1,0.3332672275853242,0
+GART,purine de novo,positive,LLPS,1,0.4346228111650175,0
+PFAS,purine de novo,positive,LLPS,1,0.39439582299647186,0
+ADSL,purine de novo,positive,LLPS,1,0.3859898505828171,0
+ATIC,purine de novo,positive,LLPS,1,0.4071707188384142,0
+GMPS,purine de novo,positive,LLPS,1,0.38599881435171124,0
+PRPS1,purine de novo,positive,filament,1,0.3535043022697579,0
+IMPDH1,purine de novo,positive,filament,1,0.39228390464910284,0
+IMPDH2,purine de novo,positive,filament,1,0.3813144398841026,0
+CAD,pyrimidine de novo,positive,LLPS,1,0.4216547874753704,0
+DHODH,pyrimidine de novo,positive,LLPS,1,0.3971935785207683,0
+UMPS,pyrimidine de novo,positive,LLPS,1,0.3422819195253233,0
+CTPS1,CTP synthesis,positive,filament,1,0.3808667658734977,0
+CTPS2,CTP synthesis,positive,filament,1,0.36445809674436247,0
+PFKL,glycolysis G-body,positive,LLPS,1,0.3988708569774287,0
+PFKP,glycolysis G-body,positive,LLPS,1,0.4210119614998271,0
+ALDOA,glycolysis G-body,positive,LLPS,1,0.3843971468909463,0
+GAPDH,glycolysis G-body,positive,LLPS,1,0.3565266948503196,0
+HK2,glycolysis G-body,positive,LLPS,1,0.3408878765400432,0
+ENO1,glycolysis G-body,positive,LLPS,1,0.3520593422398913,0
+PKM2,glycolysis,positive,amyloid,1,0.41918924864501383,0
+MDH2,TCA metabolon,positive,LLPS,1,0.4061897966416435,0
+CS,TCA metabolon,positive,LLPS,1,0.3490283029574209,0
+ACO2,TCA metabolon,positive,LLPS,1,0.40351151590622564,0
+IDH2,TCA anaplerotic,positive,oligomer,1,0.3794664839760058,0
+SPATA18,cardiolipin condensate,positive,LLPS,1,0.4687743040669801,0
+PGS1,cardiolipin condensate,positive,LLPS,1,0.4249372690690232,0
+PTPMT1,cardiolipin condensate,positive,LLPS,1,0.38605160238913716,0
+TAZ,cardiolipin condensate,positive,LLPS,1,0.5417101795892957,1
+PLA2G6,cardiolipin condensate,positive,LLPS,1,0.4110889073678225,0
+FASN,lipid synthesis,positive,oligomer,1,0.47776543305880464,0
+ACACA,lipid synthesis,positive,filament,1,0.39278430348940463,0
+PYCR1,proline synthesis,positive,oligomer,1,0.4526924029226102,0
+PYCR2,proline synthesis,positive,oligomer,1,0.4640042958884068,0
+PHGDH,serine synthesis,positive,LLPS,1,0.4011186698816162,0
+PSAT1,serine synthesis,positive,LLPS,1,0.30665464445867197,0
+PSPH,serine synthesis,positive,LLPS,1,0.2976182642190323,0
+GLS,glutaminolysis,positive,filament,1,0.3958255231584102,0
+GCLC,glutathione synthesis,negative,diffuse,0,0.3698910516652853,0
+GCLM,glutathione synthesis,negative,diffuse,0,0.43187186661837274,0
+GSS,glutathione synthesis,negative,diffuse,0,0.3339850761925242,0
+SHMT1,one-carbon,negative,diffuse,0,0.37753892162795455,0
+MTHFD1,one-carbon,negative,diffuse,0,0.4463901343434493,0
+MTHFD2,one-carbon,negative,mitochondrial,0,0.4852118006834258,0
+GFPT1,hexosamine,negative,diffuse,0,0.41373735923419347,0
+GFPT2,hexosamine,negative,diffuse,0,0.3807563214462243,0
+OGT,hexosamine,negative,diffuse,0,0.3954480234189006,0
+GNE,hexosamine,negative,diffuse,0,0.4198511488081198,0
+UAP1,hexosamine,negative,diffuse,0,0.32695208478224325,0
+HPRT1,purine salvage,negative,diffuse,0,0.30040656016832645,0
+APRT,purine salvage,negative,diffuse,0,0.3273668526986666,0
+ADK,purine salvage,negative,diffuse,0,0.3545501340169974,0
+UPP1,pyrimidine salvage,negative,diffuse,0,0.40100413632724424,0
+UCK2,pyrimidine salvage,negative,diffuse,0,0.3794103226213253,0
+DCK,pyrimidine salvage,negative,diffuse,0,0.34483665133117736,0
+TK1,pyrimidine salvage,negative,diffuse,0,0.3831884422620648,0
+CPS1,urea cycle,negative,mitochondrial,0,0.4247372565051379,0
+OTC,urea cycle,negative,mitochondrial,0,0.38930147563340983,0
+ASS1,urea cycle,negative,diffuse,0,0.3676054824962004,0
+ASL,urea cycle,negative,diffuse,0,0.3369819303696451,0
+ARG1,urea cycle,negative,diffuse,0,0.4006963306332017,0
+BCAT1,BCAA degradation,negative,diffuse,0,0.3213859838022272,0
+BCAT2,BCAA degradation,negative,mitochondrial,0,0.3376386444693346,0
+BCKDHA,BCAA degradation,negative,mitochondrial,0,0.3882693629482587,0
+BCKDHB,BCAA degradation,negative,mitochondrial,0,0.35802115588428846,0
+DBT,BCAA degradation,negative,mitochondrial,0,0.40825798053001333,0
+DLD,BCAA degradation,negative,mitochondrial,0,0.46570990812638063,0
+BCKDK,BCAA degradation,negative,diffuse,0,0.4313186634945479,0
+PPM1K,BCAA degradation,negative,diffuse,0,0.4519192605137695,0
+CPT1A,FAO,negative,membrane,0,0.41855308004675157,0
+CPT2,FAO,negative,mitochondrial,0,0.37760294025327373,0
+ACADM,FAO,negative,mitochondrial,0,0.37267429985683825,0
+HADHA,FAO,negative,mitochondrial,0,0.45504089500465233,0
+HADHB,FAO,negative,mitochondrial,0,0.4565144999532761,0
+HADH,FAO,negative,mitochondrial,0,0.4550408950046523,0
+ECHS1,FAO,negative,mitochondrial,0,0.4211059009079075,0
+HK1,control diffuse,negative,diffuse,0,0.4245094699070174,0
+TKT,control diffuse,negative,diffuse,0,0.3967376055738465,0
+RPIA,control diffuse,negative,diffuse,0,0.4282714319637682,0
+G6PD,control diffuse,negative,diffuse,0,0.2886888067267243,0
+PGLS,control diffuse,negative,diffuse,0,0.3945281893747989,0
+TALDO1,control diffuse,negative,diffuse,0,0.2847247993047704,0
+ME1,control diffuse,negative,diffuse,0,0.3493044137270319,0
+PC,control diffuse,negative,diffuse,0,0.4029159077177664,0
+IDH1,control diffuse,negative,diffuse,0,0.3258975857324138,0
+PGK1,glycolysis control,negative,diffuse,0,0.3712760907850384,0
+PGAM1,glycolysis control,negative,diffuse,0,0.33676271882947467,0
+TPI1,glycolysis control,negative,diffuse,0,0.3021405744193455,0
+PKM,glycolysis control,negative,diffuse,0,0.443629710706869,0
+LDHA,glycolysis control,negative,diffuse,0,0.43166338710858493,0
+IDH3A,TCA control,negative,mitochondrial,0,0.38837183288075566,0
+OGDH,TCA control,negative,mitochondrial,0,0.423778089136333,0
+SDHA,TCA control,negative,mitochondrial,0,0.4049747847940938,0
+FH,TCA control,negative,mitochondrial,0,0.43604502976003146,0
+SUCLA2,TCA control,negative,mitochondrial,0,0.3934439688141079,0
+PGD,PPP control,negative,diffuse,0,0.3915014216631898,0
+RPE,PPP control,negative,diffuse,0,0.30482869308004984,0
+GOT1,amino acid control,negative,diffuse,0,0.3245042786573914,0
+GPT,amino acid control,negative,diffuse,0,0.3629240520671378,0
