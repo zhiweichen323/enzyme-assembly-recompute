@@ -1,0 +1,45 @@
+name: Python scientific checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: Python 3.12 on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: enzyme-assembly-recompute
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: enzyme-assembly-recompute/requirements-tested.txt
+      - name: Install numerical dependencies
+        run: python -m pip install -r requirements-tested.txt
+      - name: Check dependency compatibility
+        run: python -m pip check
+      - name: Run mathematical and holdout tests
+        run: python -m unittest discover -s tests -v
+      - name: Check repository documentation and provenance
+        run: python tools/check_repository.py
+      - name: Validate supplied input
+        run: python run_analysis.py --config configs/quick.json --check-only
+      - name: Run quick analysis with spawn workers
+        run: python run_analysis.py --config configs/quick.json --workers 2 --output results/ci
+      - name: Reconstruct one held-out prediction
+        run: python explain_prediction.py --results results/ci --gene PPAT
+      - name: Compare with frozen numerical reference
+        run: python tools/check_reference.py --results results/ci
