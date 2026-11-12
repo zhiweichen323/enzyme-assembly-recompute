@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a reproducible runtime or numerical discrepancy.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Include the output of run_analysis.py --version or the commit identifier.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Linux
+        - WSL
+        - Native Windows
+        - macOS
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python, NumPy, SciPy, and Matplotlib versions.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction command and configuration
+      description: Include the full command, relevant JSON configuration, and input SHA256.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and error output
+      render: text
+    validations:
+      required: true
